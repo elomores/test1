@@ -1,17 +1,22 @@
 package com.company;
+
 import java.util.*;
 
 public class Walls {
 
-    protected ArrayList<Integer> Heigth = new ArrayList<Integer>();
-    protected int height;
+    private ArrayList<Integer> Height = new ArrayList<Integer>();
+    private int height;
 
-    public void SetHeight(){
-        for (int i = 0; i < 10; i++){
-            height = (int) (150000*Math.random());
-            Heigth.add(height);
+    public void SetHeight(int a){
+        for (int i = 0; i < a; i++){
+            height = (int) (150*Math.random());
+            System.out.println(height);
+            Height.add(height);
         }
+        System.out.println("");
     }
 
-    public ArrayList<String> GetHeight()
+    public ArrayList<Integer> GetHeight(){
+        return Height;
+    }
 }
