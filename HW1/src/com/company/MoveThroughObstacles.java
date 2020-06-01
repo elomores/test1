@@ -1,14 +1,15 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class MoveThroughObstacles {
 
     public void initialize() {
         Robot T_800 = new Robot();
         Cat Marple = new Cat();
         Human George = new Human();
-        Walls barriers = new Walls();
-        Tracks racetracks = new Tracks();
         Comparison Challenge = new Comparison();
+        ArrayList challengers = new ArrayList();
 
         George.Human_SetHeight(100);
         George.Human_SetLength(60000);
@@ -19,14 +20,18 @@ public class MoveThroughObstacles {
         T_800.Robot_SetHeight(50);
         T_800.Robot_SetLength(100000);
 
-        barriers.SetHeight(7);
-        racetracks.SetLength(8);
+        challengers.add(0, "Cat");
+        challengers.add(1, "Human");
+        challengers.add(2, "Robot");
+        challengers.add(3, Marple.Cat_GetHeight());
+        challengers.add(4, George.Human_GetHeight());
+        challengers.add(5, T_800.Robot_GetHeight());
+        challengers.add(6, Marple.Cat_GetLength());
+        challengers.add(7, George.Human_GetLength());
+        challengers.add(8, T_800.Robot_GetLength());
 
-        Challenge.compare(T_800.Robot_GetHeight(), barriers.GetHeight(), "Robot", "Wall");
-        Challenge.compare(Marple.Cat_GetHeight(), barriers.GetHeight(), "Cat", "Wall");
-        Challenge.compare(George.Human_GetHeight(), barriers.GetHeight(), "Human", "Wall");
-        Challenge.compare(T_800.Robot_GetLength(), racetracks.GetLength(), "Robot", "Road");
-        Challenge.compare(Marple.Cat_GetLength(), racetracks.GetLength(), "cat", "Road");
-        Challenge.compare(George.Human_GetLength(), racetracks.GetLength(), "Robot", "Road");
+        System.out.println(challengers.size());
+
+        Challenge.Compare(challengers, 6, 7);
     }
 }

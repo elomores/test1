@@ -8,11 +8,13 @@ public class Cat {
     public void Cat_SetHeight(int a){
         cat_jump_height = a;
         System.out.println("Cat can jump " + cat_jump_height + "!");
+        System.out.println(" ");
     }
 
     public void Cat_SetLength(int b){
         cat_run_length = b;
         System.out.println("Cat can run for " + cat_run_length + "!");
+        System.out.println(" ");
     }
 
     public int Cat_GetHeight(){

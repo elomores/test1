@@ -6,12 +6,15 @@ public class Robot {
 
     public void Robot_SetHeight(int a){
         robot_jump_height = a;
-        System.out.println("Cat can jump " + robot_jump_height + "!");
+        System.out.println("Robot can jump " + robot_jump_height + "!");
+        System.out.println(" ");
+
     }
 
     public void Robot_SetLength(int b){
         robot_run_length = b;
-        System.out.println("Cat can run for " + robot_run_length + "!");
+        System.out.println("Robot can run for " + robot_run_length + "!");
+        System.out.println(" ");
     }
 
     public int Robot_GetHeight(){
