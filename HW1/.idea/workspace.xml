@@ -19,16 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="246416f9-f241-43aa-8ef4-16346ecc3931" name="Default Changelist" comment="">
+    <list default="true" id="246416f9-f241-43aa-8ef4-16346ecc3931" name="Default Changelist" comment="Мб все-таки сейчас правильно">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Comparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Comparison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MoveThroughObstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MoveThroughObstacles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tracks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tracks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Walls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Walls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +97,18 @@
       <option name="presentableId" value="Default" />
       <updated>1590874092938</updated>
       <workItem from="1590874111528" duration="13213000" />
-      <workItem from="1590892083927" duration="60000" />
+      <workItem from="1590892083927" duration="531000" />
+      <workItem from="1591013563974" duration="572000" />
+      <workItem from="1591014287388" duration="9408000" />
     </task>
+    <task id="LOCAL-00001" summary="Мб все-таки сейчас правильно">
+      <created>1590892195302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590892195302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,34 +119,48 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Мб все-таки сейчас правильно" />
+    <option name="LAST_COMMIT_MESSAGE" value="Мб все-таки сейчас правильно" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="592" y="229" key="FileChooserDialogImpl" timestamp="1590877563106">
+    <state x="477" y="128" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591013654374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="592" y="229" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590877563106" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1590890597841">
+    <state x="477" y="128" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1591013654374" />
+    <state x="592" y="229" key="FileChooserDialogImpl" timestamp="1591046781679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590890597841" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1590890597841">
+    <state x="592" y="229" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591046781679" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591046786955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590890597841" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1590890597841">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591046786955" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591046786955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590890597841" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1590890597841">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591046786955" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591046786955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590890597841" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591046786955" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591046786955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591046786955" />
     <state x="278" y="0" key="SettingsEditor" timestamp="1590889212106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -153,13 +169,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="607" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1590889200586" />
-    <state x="252" y="66" key="new project wizard" timestamp="1590877209440">
+    <state x="252" y="66" key="new project wizard" timestamp="1591046784704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="252" y="66" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590877209440" />
-    <state x="460" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1590887751104">
+    <state x="252" y="66" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591046784704" />
+    <state x="460" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1591015739282">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="460" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590887751104" />
+    <state x="460" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591015739282" />
   </component>
 </project>
